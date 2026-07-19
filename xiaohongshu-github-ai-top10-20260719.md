@@ -1,49 +1,41 @@
-# GitHub AI 项目周榜 Top 10｜这些开源神器正在重塑开发者工作流 🔥
+# 🔥 GitHub AI 开源项目周榜 Top 10 | 2026.07.19
 
-📅 2026.07.19 · 本周新增 Star 排行
-
----
-
-## 🏆 完整榜单
-
-| 排名 | 项目 | 描述 | ⭐ Star | 📈 周新增 |
-|:---:|------|------|--------|----------|
-| 🥇 | **Meetily** | 隐私优先的AI会议助手，Rust打造，100%本地 | 22.7k | 8.8k |
-| 🥈 | **Agent Skills** | Google出品，AI编码Agent技能包 | 76.9k | 7.9k |
-| 🥉 | **System Prompts Leaks** | 主流大模型系统提示词汇总 | 55.9k | 7.8k |
-| 4 | **Strix** | 开源AI渗透测试，自动挖漏洞 | 40.2k | 6.4k |
-| 5 | **OfficeCLI** | AI Agent原生Office工具，单二进制 | 14.5k | 5.8k |
-| 6 | **Caveman** | 极简表达省65% Token | 87.8k | 5.3k |
-| 7 | **Herdr** | Rust终端Agent多路复用器 | 15.2k | 4.7k |
-| 8 | **Codex Plugin** | OpenAI让Claude Code调用Codex | 27.5k | 4.5k |
-| 9 | **Orca** | 并行Agent集群开发环境 | 16.0k | 4.3k |
-| 10 | **OmniRoute** | 230+模型免费网关，省95%Token | 15.1k | 4.3k |
+这周 AI 圈又炸了！744B 大模型能在消费级机器上跑了？求职全自动化？来看看本周最火的十个项目 👇
 
 ---
 
-## 💡 本周看点
+**🥇 No.1 colibri** @JustVugg ⭐15k（周+14k）
+纯 C 实现、零依赖，25GB RAM 就能跑 GLM-5.2（744B MoE）！专家模型从磁盘流式加载，消费级机器推理大模型不再是梦
 
-**Agent 工具链全面爆发**：本周围绕「让AI Agent更好用」的工具占据了半壁江山。从 OfficeCLI 让Agent直接操作文档，到 Herdr 在终端并行调度多个Agent，再到 Caveman 极致压缩上下文成本——开发者们正在系统性地解决 Agent 落地的工程痛点。
+**🥈 No.2 ai-job-search** @MadsLorentzen ⭐22.8k（周+13.2k）
+基于 Claude Code 的 AI 求职框架，自动评估职位→定制简历→写求职信→准备面试，一条龙全自动
 
-**隐私回归**：榜首 Meetily 以「100%本地处理」的姿态登顶，反映出在AI能力不断渗透办公场景的同时，隐私需求正在成为开发者的核心考量。
+**🥉 No.3 ds4** @antirez ⭐23.9k（周+11.5k）
+Redis 作者 antirez 出品！DeepSeek 4 Flash/PRO 本地推理引擎，支持 Metal/CUDA/ROCm 三大平台
 
-**多模型协作成为新范式**：Codex Plugin 的出现标志着「一个Agent不够用，要让多个Agent协同」的理念正在落地。Orca 更是直接为并行Agent集群打造了完整开发环境。
+**No.4 codebase-memory-mcp** @DeusData ⭐9.9k（周+9.9k）
+代码库知识图谱 MCP，支持 158 种语言，亚毫秒级查询，Token 消耗降低 99%
+
+**No.5 OpenCut** @OpenCut-app ⭐70.4k（周+7.2k）
+开源版剪映！核心用 Rust 重写，AI 辅助视频剪辑，MIT 协议，桌面端可用
+
+**No.6 OfficeCLI** @iOfficeAI ⭐17.4k（周+7.1k）
+AI Agent 专属 Office 套件，无需安装就能读写 Word/Excel/PPT，单二进制就能跑
+
+**No.7 graphify** @Graphify-Labs ⭐87.4k（周+6.7k）
+把代码/文档/图片/视频转成知识图谱的 Agent Skill，兼容 Claude Code、Cursor、Gemini CLI
+
+**No.8 orca** @stablyai ⭐19.7k（周+5.7k）
+并行编码 Agent 舰队管理器，桌面+移动端都能用，自带订阅运行任意编码 Agent
+
+**No.9 destructive_command_guard** @Dicklesworthstone ⭐35k（周+5.5k）
+拦截 AI Agent 的 rm -rf、git push --force 等危险操作，Agent 安全第一道防线
+
+**No.10 WorkBuddyGuide** @AlephAITech ⭐47k（周+4.7k）
+AI 智能体实战蓝皮书，覆盖教程、真实工作流、Skills、MCP、自动化全链路
 
 ---
 
-## 🔗 项目链接
+💡 趋势洞察：本地推理引擎爆发（colibri/ds4）、Agent 安全受关注、AI 自动化工具全面开花
 
-1. [Meetily](https://github.com/Zackriya-Solutions/meetily)
-2. [Agent Skills](https://github.com/addyosmani/agent-skills)
-3. [System Prompts Leaks](https://github.com/asgeirtj/system_prompts_leaks)
-4. [Strix](https://github.com/usestrix/strix)
-5. [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)
-6. [Caveman](https://github.com/JuliusBrussee/caveman)
-7. [Herdr](https://github.com/ogulcancelik/herdr)
-8. [Codex Plugin](https://github.com/openai/codex-plugin-cc)
-9. [Orca](https://github.com/stablyai/orca)
-10. [OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-
----
-
-#GitHub #开源项目 #AI工具 #程序员 #技术前沿 #AIAgent #效率工具
+#GitHub #AI #开源 #程序员 #人工智能 #技术前沿 #每周精选
